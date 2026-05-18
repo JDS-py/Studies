@@ -1,0 +1,29 @@
+pra terminar os programas
+
+label home;
+var esc:string;
+
+	clrscr;
+	writeln('Quer teminar programa?');
+	writeln('S ou N');
+	readln(esc);
+	esc := upcase(esc);
+	if esc = 'N' then
+		begin
+			clrscr;
+			goto home;
+
+		end
+			else
+			begin
+				clrscr;
+				writeln('desligando.');
+				 delay(250);
+				 clrscr;
+				 writeln('desligando..');		
+				 delay(250);
+				 clrscr;
+				 writeln('desligando...');
+				 delay(250);
+				 clrscr;
+			end;
